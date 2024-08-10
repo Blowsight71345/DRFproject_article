@@ -1,0 +1,7 @@
+SECRET_KEY = 'your_secret_key' #секретный ключ Django setting
+DEBUG = True
+POSTGRES_DB= your_db_name # имя создаваемой БД
+POSTGRES_USER= your_db_user # пользователь для БД
+POSTGRES_PASSWORD=your_db_password # пароль для БД
+HOST=localhost # host и порт для подключения к БД, оставить если используется поставляемый с приложением postgresql сервер
+PORT=5432
